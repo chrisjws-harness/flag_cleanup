@@ -29,7 +29,7 @@ func main() {
 		log.Println("Run false code path")
 	}
 	
-	if isEnabled("feature_storz_ngwp") {
+	if isEnabled("feature_storz_lQIf") {
 		log.Println("Run true code path")
 	} else {
 		log.Println("Run false code path")
