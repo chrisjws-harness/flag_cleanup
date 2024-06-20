@@ -29,11 +29,8 @@ func main() {
 		log.Println("Run false code path")
 	}
 
-	if isEnabled("feature_storz_yEHk") {
-		log.Println("Run true code path")
-	} else {
-		log.Println("Run false code path")
-	}
+	log.Println("Run true code path")
+
 }
 
 func doSomething() {
